@@ -1,0 +1,14 @@
+{
+    "solution": {},
+    "fx-resource-bot": {
+        "botId": "c87bdc6b-c7ed-4ac2-8589-a866131c46b8",
+        "botPassword": "{{fx-resource-bot.botPassword}}",
+        "validDomain": "277b-2401-4900-3b1c-b847-15a2-3492-8ca3-9873.ngrok.io",
+        "domain": "277b-2401-4900-3b1c-b847-15a2-3492-8ca3-9873.ngrok.io",
+        "siteEndpoint": "https://277b-2401-4900-3b1c-b847-15a2-3492-8ca3-9873.ngrok.io"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppId": "d16c7ad9-cd05-4427-9a42-17496b797525",
+        "tenantId": "7e9f9c19-e6dd-4d03-9137-85dc469b2062"
+    }
+}

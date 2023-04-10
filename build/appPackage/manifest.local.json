@@ -1,0 +1,67 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "1.0.0",
+    "id": "d16c7ad9-cd05-4427-9a42-17496b797525",
+    "packageName": "com.microsoft.teams.extension",
+    "developer": {
+        "name": "Teams App, Inc.",
+        "websiteUrl": "https://www.example.com",
+        "privacyUrl": "https://www.example.com/termofuse",
+        "termsOfUseUrl": "https://www.example.com/privacy"
+    },
+    "icons": {
+        "color": "resources/color.png",
+        "outline": "resources/outline.png"
+    },
+    "name": {
+        "short": "commandBot-local-debug",
+        "full": "Full name for commandBot-local-debug"
+    },
+    "description": {
+        "short": "Short description of commandBot-local-debug",
+        "full": "Full description of commandBot-local-debug"
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+        {
+            "botId": "c87bdc6b-c7ed-4ac2-8589-a866131c46b8",
+            "scopes": [
+                "personal",
+                "team",
+                "groupchat"
+            ],
+            "supportsFiles": false,
+            "isNotificationOnly": false,
+            "commandLists": [
+                {
+                    "scopes": [
+                        "personal",
+                        "team",
+                        "groupchat"
+                    ],
+                    "commands": [
+                        {
+                            "title": "helloWorld",
+                            "description": "A helloworld command to send a welcome message"
+                        },
+                        {
+                            "title": "clearCache",
+                            "description": "A clearCache command to clear the Cache from selcted environment"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "composeExtensions": [],
+    "configurableTabs": [],
+    "staticTabs": [],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "277b-2401-4900-3b1c-b847-15a2-3492-8ca3-9873.ngrok.io"
+    ]
+}
